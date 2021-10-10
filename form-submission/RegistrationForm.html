@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+</head>
+	<body>
+		<h1>Registration Form</h1>
+		<form action="FormAction.php" method="post">
+	<fieldset>
+		<legend>Basic Information:</legend>
+		First Name:<input type="text"name="firstname">
+		<br>
+		<br>
+		Last Name:<input type="text"name="lastname">
+		<br>
+		<br>
+		Gender: 
+		<input type="radio" name="gender" value="male">Male
+		<input type="radio" name="gender" value="female">Female
+		<input type="radio" name="gender" value="other">Other
+		<br>
+		<br>
+		Date of Birth :  <input type="date" name="dob">
+		<br>
+		<br>
+		Religion:
+		<select name="religion">
+			<option value="islam">Islam</option>
+            <option value="hindu">Hindu</option>
+            <option value="christian">Christian</option>
+            <option value="buddhist">Buddhist</option>
+            <option value="other">Other</option>
+        </select>
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Contact Information</legend>
+		
+		Present Address:
+		<textarea id="pp" name="pp" rows="3" cols="40">
+		</textarea>	
+		<br>
+
+		Permanent Address:
+		<textarea id="pa" name="pa" rows="3" cols="40">
+		</textarea>	
+		<br>
+		<br>
+		Phone:<input type="tel" name="telephone">
+		<br>
+		<br>
+		Email:<input type="email" name="email">
+		<br>
+		<br>
+		Personal Website Link<input type="url" name="url">
+	</fieldset>
+
+	<fieldset>
+		<legend>Account Information</legend>
+		User Name:<input type="text"name="username">
+		<br>
+		<br>
+		Password:<input type="password"name="password">
+	</fieldset>
+	<input type="submit" name="submit" value="Register">
+    </form>
+</body>
+</html>

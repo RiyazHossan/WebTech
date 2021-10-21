@@ -1,0 +1,4 @@
+{"category":"send_money","to":"this","amount":"5000"}
+{"category":"recharge","to":"that","amount":"50"}
+{"category":"send_money","to":"that","amount":"1000"}
+{"category":"recharge","to":"this","amount":"100"}

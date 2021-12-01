@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+	<style>
+        #message {
+            color: red;
+        }
+    </style>
+    <script src="external.js"></script>
+</head>
+	<body>
+		<h1>Registration Form</h1>
+		<form name="Registration" action="RegistrationFormAction.php" method="post" onsubmit="return isValidR(this);">
+
+	<fieldset>
+		<legend>Account Information</legend>
+		User Name:<input type="text"name="username">
+		<br>
+		<br>
+		Email:<input type="email" name="email">
+		<br>
+		<br>
+		Password:<input type="password"name="password">
+        
+	</fieldset>
+	<input type="submit" name="submit" value="Register">
+    </form>
+
+    <p id="message"></p>
+
+</body>
+</html>

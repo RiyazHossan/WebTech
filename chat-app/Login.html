@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<style>
+        #message {
+            color: red;
+        }
+    </style>
+    <script src="external.js"></script>
+</head>
+<body>
+
+	<h1>Login Form</h1>
+
+   <form name="Login" action="LoginAction.php" method="post" onsubmit="return isValidL(this);">
+	<fieldset>
+		User Name:<input type="text"name="username">
+		<br>
+		<br>
+		Password:<input type="password"name="password">
+	</fieldset>
+
+<br>
+<br>
+	<input type="submit" name="submit" value="LOGIN">
+	
+   </form>
+
+   <p id="message"></p>
+
+</body>
+</html>

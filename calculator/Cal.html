@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Calculator</title>
+</head>
+<body>
+ 
+    <p id="Result"></p>
+ 
+    <script type="text/javascript">
+      var x = y = 0;
+ 
+      var input;
+      window.alert("Enter + to add, - to subtract, * to multiply, / to divide");
+      
+      input = prompt();
+ 
+      window.alert("Enter number 1");
+      x = Number (prompt ());
+ 
+      window.alert("Enter number 2");
+      y = Number (prompt ());
+ 
+ 
+      if (input == "+"){document.getElementById("Result").innerHTML = x+y;}
+ 
+      else if (input === "-"){document.getElementById("Result").innerHTML = x-y;}
+ 
+      else if (input === "*"){document.getElementById("Result").innerHTML = x*y;}
+ 
+      else if (input === "/"){document.getElementById("Result").innerHTML = x/y;}
+</script>
+</body>
+</html>
